@@ -18,6 +18,7 @@ upgrades: [
   u6-austropeta,
   u7-cordulida
   ]
+]
 research:{
   parent: unit-factory
   objectives: [
