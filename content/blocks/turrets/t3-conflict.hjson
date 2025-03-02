@@ -160,3 +160,9 @@ ammoTypes: {
     ]
 }
 }
+}
+requirements: [
+  i1-osmium/500
+  i2-carcenerite/400
+  i3-ash/90
+]
