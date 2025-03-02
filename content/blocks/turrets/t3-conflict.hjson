@@ -33,6 +33,7 @@ ammoTypes: {
   i1-osmium: {
     type: ArtilleryBulletType
     damage: 5
+    reloadMultiplier: 0.2
     splashDamage: 30
     splashDamageRadius: 24
     speed: 2
@@ -44,5 +45,118 @@ ammoTypes: {
     trailColor: 6c6375
     hitColor: 6c6375
     fragBullets: 1
+    width: 10
+    height: 12
+    hitEffect: flakExplosion
+    collidesAir: true
+    fragBullet: {
+      type: BulletType
+      lifetime: 0
+      hitEffect: none
+      damage: 0
+      despawnEffect: none
+      speed: 0
+      spawnBullets: [
+      {
+      type: BulletType
+      lifetime: 0
+      hitEffect: none
+      damage: 0
+      despawnEffect: none
+      speed: 0
+      fragBullets: 4
+      fragRandomSpread: 0
+      fragSpread: 90
+      fragVelocityMin: 1
+      fragVelocityMax: 1
+      fragBullet: {
+        type: BulletType
+        collides: false
+        damage: 3
+        splashDamage: 30
+        splashDamageRadius: 10
+        speed: 8
+        lifetime: 1
+        hitEffect: massiveExplosion
+        despawnEffect: none
+        hitSound: explosion
+        }
+      }
+      {
+      type: BulletType
+      lifetime: 0
+      hitEffect: none
+      damage: 0
+      despawnEffect: none
+      speed: 0
+      fragBullets: 8
+      fragRandomSpread: 0
+      fragSpread: 45
+      fragVelocityMin: 1
+      fragVelocityMax: 1
+      fragBullet: {
+        type: BulletType
+        collides: false
+        damage: 3
+        splashDamage: 45
+        splashDamageRadius: 16
+        speed: 20
+        lifetime: 1
+        hitEffect: massiveExplosion
+        despawnEffect: none
+        hitSound: explosion
+        }
+      }
+      {
+      type: BulletType
+      lifetime: 0
+      hitEffect: none
+      damage: 0
+      despawnEffect: none
+      speed: 0
+      fragBullets: 16
+      fragRandomSpread: 0
+      fragSpread: 22.5
+      fragVelocityMin: 1
+      fragVelocityMax: 1
+      fragBullet: {
+        type: BulletType
+        collides: false
+        damage: 3
+        splashDamage: 60
+        splashDamageRadius: 24
+        speed: 40
+        lifetime: 1
+        hitEffect: massiveExplosion
+        despawnEffect: none
+        hitSound: explosion
+        }
+      }
+      {
+      type: BulletType
+      lifetime: 0
+      hitEffect: none
+      damage: 0
+      despawnEffect: none
+      speed: 0
+      fragBullets: 32
+      fragRandomSpread: 0
+      fragSpread: 11.25
+      fragVelocityMin: 1
+      fragVelocityMax: 1
+      fragBullet: {
+        type: BulletType
+        collides: false
+        damage: 3
+        splashDamage: 70
+        splashDamageRadius: 32
+        speed: 75
+        lifetime: 1
+        hitEffect: massiveExplosion
+        despawnEffect: none
+        hitSound: explosion
+        }
+      }
+    ]
 }
 }
