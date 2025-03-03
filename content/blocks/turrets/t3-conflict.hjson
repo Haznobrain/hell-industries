@@ -1,6 +1,6 @@
 type: ItemTurret
 size: 3
-reload: 160
+reload: 320
 range: 240
 shootY: 10
 shootSound: artillery
@@ -33,7 +33,7 @@ ammoTypes: {
   i1-osmium: {
     type: ArtilleryBulletType
     damage: 5
-    reloadMultiplier: 0.2
+    reloadMultiplier: 0.4
     splashDamage: 30
     splashDamageRadius: 24
     speed: 2
