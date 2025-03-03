@@ -160,9 +160,66 @@ ammoTypes: {
     ]
 }
 }
+  i2-carcenerite: {
+    type: BasicBulletType
+    rangeChange: 200
+    damage: 120
+    hitEffect: hitBulletColor
+    frontColor: ffffff
+    backColor: f9d2c0
+    trailColor: f9d2c0
+    hitColor: f9d2c0
+    despawnEffect: explosion
+    knockback: 1
+    pierce: false
+    trailLength: 40
+    speed: 5
+    lifetime: 88
+    height: 12
+    width: 10
+    trailWidth: 2.5
+    spawnBullets: [
+{
+    type: BulletType
+    pierce: false
+    damage: 0
+    hitEffect: none
+    despawnEffect: none
+    fragBullets: 1
+    fragRandomSpread: 0
+    fragVelocityMin: 1
+    speed: 5
+    lifetime: 44
+    fragBullet: {
+    type: BasicBulletType
+    rangeChange: 200
+    damage: 120
+    hitEffect: hitBulletColor
+    frontColor: ffffff
+    backColor: f9d2c0
+    trailColor: f9d2c0
+    hitColor: f9d2c0
+    despawnEffect: explosion
+    knockback: 1
+    pierce: true
+    pierceBuildings: true
+    pierceCap: 5
+    trailLength: 40
+    speed: 5
+    lifetime: 44
+    height: 12
+    width: 10
+    trailWidth: 2.5
+}
+}
+]
+}
 }
 requirements: [
   i1-osmium/500
   i2-carcenerite/400
   i3-ash/90
 ]
+research: {
+    parent: t1-inflict
+    }
