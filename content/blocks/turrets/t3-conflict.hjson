@@ -190,6 +190,7 @@ ammoTypes: {
     fragVelocityMin: 1
     speed: 5
     lifetime: 44
+    fragOnHit: false
     fragBullet: {
     type: BasicBulletType
     rangeChange: 200
