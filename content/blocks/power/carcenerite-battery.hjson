@@ -6,7 +6,7 @@ health: 320
 consumes: {
   powerBuffered: 12000
     }
-research: cerussite-vent-generator
+research: power-transmitter
 name: Carcenerite Battery
 description: stores power.
 requirements: [
