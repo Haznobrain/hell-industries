@@ -112,6 +112,7 @@ bullet: {
   lightning: 1
   lightningDamage: 5
   lightningLength: 6
+  pierceDamageFactor: 0.09
     }
 }
   ]
