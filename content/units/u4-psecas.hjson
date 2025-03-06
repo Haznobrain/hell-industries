@@ -1,0 +1,115 @@
+type: legs
+outlineColor: 484150
+envDisabled: 0
+speed: 0.7
+hitSize: 40
+health: 8550
+layer: 74.04
+armor: 13
+hovering: true
+name: Psecas
+description: Fires a piercing hitscan spear. Very tanky.
+shadowElevation: 0.3
+legStraightness: 0
+legSpeed: 0.72
+legCount: 4
+legLength: 24
+lockLegBase: false
+legContinuousMove: true
+legExtension: 0.5
+legBaseOffset: 20
+legMaxLength: 1.1
+legLengthScl: 0.96
+legMinLength: 0.8
+legForwardScl: 1
+fogRadius: 24
+rippleScale: 0.3
+legMoveSpace: 1
+legPhysicsLayer: false
+mechStepShake: 0.2
+weapons: [
+{
+name: u4-psecas-weapon
+reload: 60
+x: 0
+y: 0
+rotate: true
+rotateSpeed: 4.1
+mirror: false
+shootSound: railgun
+shootY: 10
+bullet: {
+  type: RailBulletType
+  damage: 145
+  laserAbsorb: true
+  pierceEffect: {
+      type: RadialEffect
+      effects: 2
+      rotationSpacing: 270
+      rotWithParent: true
+      effect: {
+        type: ParticleEffect
+        particles: 1
+        lifetime: 30
+        colorFrom: ff9c5a
+        colorTo: ff9c5a
+        length: 0.01
+        line: true
+        lenFrom: 16
+        lenTo: 16
+        strokeFrom: 1
+        strokeTo: 0
+          }
+  }
+    hitEffect: {
+      type: RadialEffect
+      effects: 2
+      rotationSpacing: 270
+      rotWithParent: true
+      effect: {
+        type: ParticleEffect
+        particles: 1
+        lifetime: 30
+        colorFrom: ff9c5a
+        colorTo: ff9c5a
+        length: 0.01
+        line: true
+        lenFrom: 16
+        lenTo: 16
+        strokeFrom: 1
+        strokeTo: 0
+          }
+  }
+  lineEffect: {
+      type: ParticleEffect
+      line: true
+      particles: 1
+      colorFrom: ff9c5a
+      colorTo: ff9c5a
+      lenFrom: 20
+      lenTo: 12
+      strokeFrom: 3
+      strokeTo: 0
+      lifetime: 30
+      length: 0.1
+        }
+  pointEffect: {
+      type: ParticleEffect
+      colorFrom: ff9c5a
+      colorTo: ff9c5aaa
+      length: 12
+      particles: 3
+      sizeFrom: 4
+      lifetime: 60
+      }
+  length: 192
+  pointEffectSpace: 8
+  shootEffect: shootBigColor
+  smokeEffect: shootSmokeDisperse
+  lightning: 1
+  lightningDamage: 5
+  lightningLength: 6
+    }
+}
+  ]
+research: unit-reconfigurator
