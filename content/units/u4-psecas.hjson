@@ -59,6 +59,7 @@ bullet: {
         lenTo: 16
         strokeFrom: 1
         strokeTo: 0
+        cone: 0
           }
   }
     hitEffect: {
@@ -67,6 +68,7 @@ bullet: {
       rotationSpacing: 270
       rotWithParent: true
       effect: {
+        cone: 0
         type: ParticleEffect
         particles: 1
         lifetime: 30
@@ -84,10 +86,11 @@ bullet: {
       type: ParticleEffect
       line: true
       particles: 1
+      cone: 0
       colorFrom: ff9c5a
       colorTo: ff9c5a
-      lenFrom: 20
-      lenTo: 12
+      lenFrom: 192
+      lenTo: 192
       strokeFrom: 3
       strokeTo: 0
       lifetime: 30
