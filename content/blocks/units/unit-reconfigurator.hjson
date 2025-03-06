@@ -1,0 +1,36 @@
+type: Reconstructor
+size: 5
+configurable: false
+constructTime: 1500
+category: units
+consumes: {
+  power: 5
+  items: [
+      i2-carcenerite/30
+      i4-crocoite/20
+      i3-ash/10
+      ]
+    }
+upgrades: [
+  [
+  u3-tapsatella,
+  u4-psecas
+  ]
+]
+research:{
+  parent: unit-remanipulator
+  objectives: [
+{
+  type: SectorComplete
+  preset: s3-dhp
+    }
+    ]
+    }
+name: Unit Reconfigurator
+description: " Like this literally just hits the units with more materials till shit sticks :/."
+requirements: [
+    i1-osmium/400
+    i2-carcenerite/350
+    i3-ash/200
+    i4-crocoite/100
+    ]
