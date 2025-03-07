@@ -1,0 +1,70 @@
+type: ItemTurret
+reload: 10
+size: 3
+range: 180
+shootY: 8
+shootSound: shootAlt
+category: turret
+name Meteor
+description: showers ennemies with low damage non-piercing bullets.
+inaccuracy: 30
+squareSprite: false
+drawer: {
+  type: DrawTurret
+  basePrefix: hell-
+    }
+research: {
+  parent: t2-stardust
+  objectives: [
+{
+  type: SectorComplete
+  preset: s3-dhp
+    }
+    ]
+  }
+ammoTypes: {
+  i3-ash: {
+    type: BasicBulletType
+    damage: 15
+    hitEffect: hitBulletColor
+    despawnEffect: none
+    trailEffect: missileTrail
+    frontColor: a25649
+    backColor: 884545
+    trailColor: 884545
+    hitColor: 884545
+    homingPower: 0.3
+    homingDelay: 10
+    speed: 5
+    lifetime: 36
+    shootEffect: shootSmallColor
+    smokeEffect: none
+    sprite: circle-bullet
+    ammoMultiplier: 5
+      }
+  i4-crocoite: {
+    type: BasicBulletType
+    damage: 50
+    hitEffect: hitBulletColor
+    despawnEffect: none
+    trailEffect: missileTrail
+    frontColor: f59331
+    backColor: d75415
+    trailColor: d75415
+    hitColor: f59331
+    homingPower: 0.3
+    ammoMultiplier: 1
+    sprite: circle-bullet
+    homingDelay: 10
+    speed: 5
+    lifetime: 36
+    shootEffect: shootSmallColor
+    smokeEffect: none
+    status: burning
+      }
+}
+requirements: [
+  i1-osmium/500
+  i2-carcenerite/90
+  i3-ash/400
+]
