@@ -222,6 +222,3 @@ requirements: [
   i2-carcenerite/400
   i3-ash/90
 ]
-research: {
-    parent: t1-inflict
-    }
