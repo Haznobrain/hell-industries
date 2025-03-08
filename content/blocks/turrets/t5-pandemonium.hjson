@@ -1,10 +1,13 @@
 type: PowerTurret
 reload: 300
 size: 4
-xRand: 20
+xRand: 14
 category: turret
-shootSound: laserBlast
+shootSound: laserblast
 range: 250
+name: Pandemonium
+description: Fires a burst of lasers.
+details:"LIVE [PANOPTICON] REACTION"
 drawer: {
   type: DrawTurret
   basePrefix: hell-
@@ -46,6 +49,7 @@ shootType: {
   sideLength: 0
   damage: 65
   largeHit: true
+  pierceCap: 10
     }
 research: {
   parent: t2-stardust
