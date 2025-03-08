@@ -1,0 +1,14 @@
+difficulty: 8
+planet: persephone
+sector: 2
+research: {
+  parent: s3-dhp
+  objectives: [
+      t4-meteor
+    ]
+    }
+description: " There's a pretty massive ennemy unit production hub here.
+              our erekir team managed to steal some tech from the malis so if you can hold the line
+                until we get here we can nuke the ennemy for you (although the strikes may be a little inaccurate)
+                So uh like be quick, be efficient, have a plan to kill every block you meet."
+alwaysUnlocked: true
