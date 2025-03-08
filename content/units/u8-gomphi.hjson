@@ -49,6 +49,7 @@ weapons: [
       width: 16
       height: 16
       trailWidth: 7.5
+      trailLength: 5
       shootEffect: shootTitan
       smokeEffect: shootSmokeTitan
         }
