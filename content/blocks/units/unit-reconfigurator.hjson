@@ -22,7 +22,7 @@ research:{
   objectives: [
 {
   type: SectorComplete
-  preset: s3-dhp
+  preset: s4-iwr
     }
     ]
     }
