@@ -1,0 +1,64 @@
+type: PowerTurret
+reload: 300
+size: 4
+xRand: 20
+category: turret
+shootSound: laserBlast
+range: 250
+drawer: {
+  type: DrawTurret
+  basePrefix: hell-
+  parts: [
+    {
+    suffix: -charge
+    moveY: -10
+    under: true
+    progress: reload
+    mirror: true
+      }
+{
+    suffix: -arm
+    moveY: -4
+    moveRot: -15
+    progress: recoil
+    mirror: true
+      }
+]
+}
+shoot: {
+  shots: 5
+    }
+squareSprite: false
+coolant: {
+  type: ConsumeLiquid
+  liquid: l1-likhorite
+  amount: 1
+    }
+coolantMultiplier: 3
+recoil: 2
+shootType: {
+  type: LaserBulletType
+  colors: [f59331aa, f59331, ffffff]
+  hitColor: f59331
+  hitEffect: hitLaserColor
+  length: 250
+  width: 24
+  sideLength: 0
+  damage: 65
+  largeHit: true
+    }
+research: {
+  parent: t2-stardust
+  objectives: [
+{
+      type: SectorComplete
+      preset: s4-iwr
+        }
+    ]
+}
+requirements: [
+  i1-osmium/750
+  i2-carcenerite/450
+  i3-ash/450
+  i4-crocoite/200
+  ]
