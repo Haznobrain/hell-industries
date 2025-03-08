@@ -1,0 +1,56 @@
+type: flying
+speed: 1.65
+drag: 0.07
+accel: 0.08
+flying: true
+engineSize: 8
+engineOffset: 20
+trailLength: 20
+hitSize: 36
+health: 6500
+armor: 7
+outlineColor: 484150
+envDisabled: 0
+name: Gomphi
+description: Fires artillery shells at nearby targets
+research: {
+  parent: unit-reconfigurator
+  objectives: [
+{
+type: SectorComplete
+preset: s4-iwr
+  }
+    ]
+}
+fogRadius: 18
+weapons: [
+  {
+  reload: 30
+  x: 0
+  y: 0
+  mirror: false
+  shootSound: largeExplosion
+  bullet: {
+      type: ArtilleryBulletType
+      damage: 10
+      splashDamage: 60
+      splashDamageRadius: 24
+      hitEffect: massiveExplosion
+      hitSound: dullExplosion
+      speed: 4
+      lifetime: 36
+      sprite: circle-bullet
+      shrinkX: 0
+      shrinkY: 0.8
+      frontColor: ffffff
+      backColor: f59331
+      trailColor: f59331
+      hitColor: f59331
+      width: 16
+      height: 16
+      trailWidth: 7.5
+      shootEffect: shootTitan
+      smokeEffect: shootSmokeTitan
+        }
+}
+]
