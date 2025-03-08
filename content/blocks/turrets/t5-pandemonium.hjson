@@ -31,6 +31,9 @@ drawer: {
 shoot: {
   shots: 5
     }
+consumes: {
+  power: 5
+  }
 squareSprite: false
 coolant: {
   type: ConsumeLiquid
