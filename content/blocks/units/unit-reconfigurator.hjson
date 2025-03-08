@@ -16,6 +16,10 @@ upgrades: [
   u3-tapsatella,
   u4-psecas
   ]
+[
+  u7-cordulida,
+  u8-gomphi
+]
 ]
 research:{
   parent: unit-remanipulator
