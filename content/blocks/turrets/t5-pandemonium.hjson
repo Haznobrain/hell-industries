@@ -41,6 +41,7 @@ coolantMultiplier: 3
 recoil: 2
 shootType: {
   type: LaserBulletType
+  lifetime: 100
   colors: [f59331aa, f59331, ffffff]
   hitColor: f59331
   hitEffect: hitLaserColor
