@@ -126,6 +126,5 @@ bullet: {
     buildingDamageMultiplier: 0.3
       }
 }
-}
   ]
 research: unit-recombobulator
