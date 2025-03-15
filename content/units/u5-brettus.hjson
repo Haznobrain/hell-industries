@@ -27,6 +27,8 @@ rippleScale: 1
 legMoveSpace: 2
 legPhysicsLayer: false
 mechStepShake: 2
+legSplashRange: 60
+legSplashDamage: 120
 legGroupSize: 2
 rotateSpeed: 3.4
 weapons: [
@@ -107,6 +109,8 @@ bullet: {
       type: WrapEffect
       effect: shootSmokeTitan
       color: f59331
+      rotWithParent: true
+      followParent: true
         }
     fragBullets: 8
     fragBullet: {
