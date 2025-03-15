@@ -1,0 +1,131 @@
+type: legs
+outlineColor: 484150
+envDisabled: 0
+speed: 0.4
+hitSize: 72
+health: 28000
+layer: 74.072
+armor: 30
+hovering: true
+name: Brettus
+description: An artillery platform. Insanely tanky.
+shadowElevation: 0.5
+legStraightness: 0
+legSpeed: 0.4
+legCount: 10
+legLength: 32
+lockLegBase: false
+legContinuousMove: true
+legExtension: 0.5
+legBaseOffset: 40
+legMaxLength: 1.2
+legLengthScl: 0.96
+legMinLength: 0.8
+legForwardScl: 1
+fogRadius: 30
+rippleScale: 1
+legMoveSpace: 2
+legPhysicsLayer: false
+mechStepShake: 0.8
+legGroupSize: 2
+rotateSpeed: 3.4
+weapons: [
+{
+name: u5-brettus-weapon
+reload: 120
+x: 33.25
+y: -0.5
+recoil: 5
+shootSound: largeCanon
+rotate: true
+rotationLimit: 30
+rotateSpeed: 0.9
+shootStatus: slow
+shootStatusDuration: 125
+bullet: {
+    type: ArtilleryBulletType
+    speed: 2.5
+    damage: 240
+    sprite: shell
+    hitEffect: {
+      type: MultiEffect
+      effects: [
+        {
+          type: ExplosionEffect
+          smokeColor: f59331aa
+          sparkColor: f59331
+          waveColor: f59331
+          smokes: 8
+          smokeSize: 6
+          sparkLen: 12
+          waveRad: 60
+          waveLife: 20
+          sparks: 7
+          smokeRad: 60
+          sparkRad: 60
+            }
+        {
+          type: ParticleEffect
+          particles: 10
+          sizeFrom: 10
+          sizeTo: 0
+          interp: pow5Out
+          sizeInterp: pow5In
+          colorFrom: ffffff
+          colorTo: f5933166
+          lightColor: f59331
+          length: 60
+          lifetime: 60
+            }
+            ]
+        }
+    despawnEffect: none
+    knockback: 2
+    lifetime: 130
+    rangeChange: -25
+    height: 18
+    width: 15
+    splashDamageRadius: 60
+    scaledSplashDamage: true
+    splashDamage: 240
+    backColor: f59331
+    hitColor: f59331
+    trailColor: f59331
+    frontColor: ffffff
+    ammoMultiplier: 2
+    hitSound: titanExplosion
+    status: blasted
+    trailLength: 30
+    trailWidth: 3.35
+    trailSinScl: 2.5
+    trailSinMag: 0.5
+    trailEffect: none
+    despawnShake: 7
+    shootEffect: shootTitan
+    smokeEffect: {
+      type: WrapEffect
+      effect: shootSmokeTitan
+      color: f59331
+        }
+    fragBullets: 5
+    fragBullet: {
+        type: ShrapnelBulletType
+        toColor: f59331aa
+        fromColor: ffffff
+        createChance: 0.5
+        length: 40
+        width: 6
+        serrations: 0
+        despawnSound: shotgun
+        hitLarge: true
+        damage: 14
+          }
+    trailInterp: slope
+    shrinkX: 0.2
+    shrinkY: 0.1
+    buildingDamageMultiplier: 0.3
+      }
+}
+}
+  ]
+research: unit-recombobulator
