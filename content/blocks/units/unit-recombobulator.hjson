@@ -1,0 +1,32 @@
+type: Reconstructor
+size: 9
+configurable: false
+constructTime: 3000
+category: units
+consumes: {
+  power: 5
+  items: [
+      i2-carcenerite/200
+      i4-crocoite/100
+      i3-ash/200
+      i5-cerussite/30
+      ]
+    }
+upgrades: [
+  [
+  u4-psecas,
+  u6-brettus
+  ]
+]
+research:{
+  parent: unit-reconfigurator
+    }
+name: Unit Recombobulator
+description: "And this uhm. Like, it makes bigger so like it upgrades. Trust."
+requirements: [
+    i1-osmium/1200
+    i2-carcenerite/1000
+    i3-ash/800
+    i4-crocoite/200
+    i5-cerussite/100
+    ]
