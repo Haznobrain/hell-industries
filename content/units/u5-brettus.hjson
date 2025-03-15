@@ -17,7 +17,7 @@ legLength: 32
 lockLegBase: false
 legContinuousMove: true
 legExtension: 0.5
-legBaseOffset: 40
+legBaseOffset: 24
 legMaxLength: 1.2
 legLengthScl: 0.96
 legMinLength: 0.8
@@ -31,7 +31,7 @@ legGroupSize: 2
 rotateSpeed: 3.4
 weapons: [
 {
-name: u5-brettus-weapon
+name: u5-brettus-gun
 reload: 120
 x: 33.25
 y: -0.5
