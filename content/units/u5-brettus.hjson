@@ -45,7 +45,7 @@ shootStatusDuration: 125
 bullet: {
     type: ArtilleryBulletType
     speed: 2.5
-    damage: 240
+    damage: 300
     sprite: shell
     hitEffect: {
       type: MultiEffect
@@ -87,7 +87,7 @@ bullet: {
     width: 15
     splashDamageRadius: 60
     scaledSplashDamage: true
-    splashDamage: 240
+    splashDamage: 400
     backColor: f59331
     hitColor: f59331
     trailColor: f59331
@@ -118,7 +118,7 @@ bullet: {
         serrations: 0
         despawnSound: shotgun
         hitLarge: true
-        damage: 14
+        damage: 25
           }
     trailInterp: slope
     shrinkX: 0.2
