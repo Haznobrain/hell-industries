@@ -26,7 +26,7 @@ fogRadius: 30
 rippleScale: 1
 legMoveSpace: 2
 legPhysicsLayer: false
-mechStepShake: 0.8
+mechStepShake: 2
 legGroupSize: 2
 rotateSpeed: 3.4
 weapons: [
@@ -58,18 +58,18 @@ bullet: {
           smokeColor: f59331aa
           sparkColor: f59331
           waveColor: f59331
-          smokes: 8
+          smokes: 12
           smokeSize: 6
-          sparkLen: 12
+          sparkLen: 20
           waveRad: 60
           waveLife: 20
-          sparks: 7
-          smokeRad: 60
-          sparkRad: 60
+          sparks: 30
+          smokeRad: 80
+          sparkRad: 80
             }
         {
           type: ParticleEffect
-          particles: 10
+          particles: 12
           sizeFrom: 10
           sizeTo: 0
           interp: pow5Out
@@ -77,25 +77,23 @@ bullet: {
           colorFrom: ffffff
           colorTo: f5933166
           lightColor: f59331
-          length: 60
-          lifetime: 60
+          length: 80
+          lifetime: 80
             }
             ]
         }
     despawnEffect: none
     knockback: 2
     lifetime: 130
-    rangeChange: -25
-    height: 18
-    width: 15
-    splashDamageRadius: 60
+    height: 30
+    width: 25
+    splashDamageRadius: 80
     scaledSplashDamage: true
-    splashDamage: 400
+    splashDamage: 450
     backColor: f59331
     hitColor: f59331
     trailColor: f59331
     frontColor: ffffff
-    ammoMultiplier: 2
     hitSound: titanExplosion
     status: blasted
     trailLength: 30
@@ -110,7 +108,7 @@ bullet: {
       effect: shootSmokeTitan
       color: f59331
         }
-    fragBullets: 5
+    fragBullets: 8
     fragBullet: {
         type: ShrapnelBulletType
         toColor: f59331aa
