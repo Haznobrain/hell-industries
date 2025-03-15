@@ -36,7 +36,8 @@ reload: 120
 x: 33.25
 y: -0.5
 recoil: 5
-shootSound: largeCanon
+shootSound: largeCannon
+shootY: 30
 rotate: true
 rotationLimit: 30
 rotateSpeed: 0.9
