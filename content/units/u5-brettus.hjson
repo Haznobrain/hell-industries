@@ -43,6 +43,8 @@ rotationLimit: 30
 rotateSpeed: 0.9
 shootStatus: slow
 shootStatusDuration: 125
+layerOffset: -0.001
+top: false
 bullet: {
     type: ArtilleryBulletType
     speed: 2.5
