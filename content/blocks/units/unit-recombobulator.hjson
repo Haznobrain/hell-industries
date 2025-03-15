@@ -15,7 +15,7 @@ consumes: {
 upgrades: [
   [
   u4-psecas,
-  u6-brettus
+  u5-brettus
   ]
 ]
 research:{
