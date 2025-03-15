@@ -1,0 +1,78 @@
+type: ItemTurret
+name: War
+description: A massively powerful shotgun.
+details: "This one has a reason :3"
+size: 4
+reload: 90
+shake: 2
+recoil: 1
+maxAmmo: 60
+shootY: 8
+squareSprite: false
+range: 160
+xRand: 14
+velocityRnd: 0.2
+shootSound: shotgun
+shoot: {
+  shots: 20
+    }
+heatColor: ff0000
+drawer: {
+  type: DrawTurret
+  basePrefix: hell-
+  parts: [
+    {
+    suffix: -center
+    progress: recoil
+    colorTo: 00000000
+    color: ffffff
+    mixColorTo: 00000000
+    mixColor: ffff0000
+    outline: false
+    under: true
+      }
+    ]
+}
+research: { 
+  parent: t4-meteor
+    }
+ammoPerShot: 30
+ammoTypes: {
+  i3-ash: {
+    type: BulletType
+        parts: [
+{
+  type: FlarePart
+  radius: 8
+  followRotation: true
+  spinSpeed: 2
+  layer: 99
+  color1: a2564955
+  color2: a2564955
+    }
+    ]
+    damage: 40
+    speed: 5
+    lifetime: 32
+    hitEffect:{
+      type: MultiEffect
+      effects: [hitBulletColor, massiveExplosion]
+        }
+    despawnEffect: massiveExplosion
+    shootEffect: shootBigColor
+    smokeEffect: smokeCloud
+      }
+}
+requirements:[
+    i1-osmium/1000
+    i2-carcenerite/200
+    i3-ash/800
+    i4-crocoite/210
+    ]
+  researchCost: [
+  i1-osmium/10000
+  i2-carcenerite/2000
+  i3-ash/8000
+  i4-crocoite/2100
+  ]
+  category: turret
