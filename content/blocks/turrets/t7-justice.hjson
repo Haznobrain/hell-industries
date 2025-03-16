@@ -60,6 +60,7 @@ shootType: {
   type: LaserBulletType
   damage: 50
   lightningDamage: 40
+  length: 450
   lightningLength: 30
   lightningColor: f59331
   colors: [f59331, f59331, f59331]
@@ -69,6 +70,7 @@ shootType: {
   sideLength: 0
   lightningSpacing: 20
   lightning: 3
+  lightningAngle: 0
   lightningAngleRand: 4
     }
 research: {
