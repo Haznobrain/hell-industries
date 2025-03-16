@@ -1,0 +1,38 @@
+type: flying
+flying: true
+shadowElevation: 1.5
+speed: 0.9
+drag: 0.09
+accel: 0.1
+engineSize: 16
+engineOffset: 38
+trailLength: 40
+outlineColor: 484150
+envDisabled: 0
+health: 21000
+armor: 16
+name: Macromida
+description: Fires a beam of finely pulverised cerussite particles.
+details: Macaroni prime
+research: {
+  parent: unit-recombobulator
+    }
+fogRadius: 26
+weapons: [
+  {
+  continuous: true
+  alwaysContinuous: true
+  x: 0
+  y: 0
+  shootSound: torch
+  bullet: {
+    type: ContinuousFlameBulletType
+    flareColor: feffd8
+    colors: [ede8c98c, ede8c9b2, feffd8cc, feffd8ff, ffffffff]
+    damage: 60
+    pierceCap: 3
+    hitColor: feffd8
+    length: 208
+      }
+}
+]
