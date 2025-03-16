@@ -45,7 +45,8 @@ drawer: {
     progress: warmup
     rotateSpeed: 10
       }
-    }
+    ]
+}
 minWarmup: 0.9
 shootWarmupSpeed: 0.05
 coolant: {
