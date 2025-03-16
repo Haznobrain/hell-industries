@@ -1,0 +1,82 @@
+type: PowerTurret
+reload: 160
+heatColor: f59331
+size: 5
+squareSprite: false
+consumes: {
+ power: 12
+   }
+range: 450
+shootSound: laserbeam
+rotateSpeed: 4
+category: turret
+name: Justice
+description: Fires a massive electric beam.
+details: "+CONDUCTOR +CONDUCTOR +CONDUCTOR +CONDUCTOR +CONDUCTOR +CONDUCTOR +CONDUCTOR +CONDUCTOR +CONDUCTOR +CONDUCTOR +CONDUCTOR +CONDUCTOR +CONDUCTOR +CONDUCTOR +CONDUCTOR +CONDUCTOR +CONDUCTOR +CONDUCTOR +CONDUCTOR +CONDUCTOR +CONDUCTOR +CONDUCTOR +CONDUCTOR +CONDUCTOR +CONDUCTOR +CONDUCTOR +CONDUCTOR "
+drawer: {
+  type: DrawTurret
+  basePrefix: hell-
+  parts: [
+    {
+    type: ShapePart
+    y: -30
+    radius: 8
+    circle: true
+    hollow: true
+    color: f59331
+    layer: 110
+    mirror: false
+    stroke: 0
+    strokeTo: 2
+    progress: warmup
+      }
+      {
+    type: ShapePart
+    y: -30
+    radius: 7
+    circle: false
+    sides: 3
+    hollow: true
+    color: f59331
+    layer: 110
+    mirror: false
+    stroke: 0
+    strokeTo: 2
+    progress: warmup
+    rotateSpeed: 10
+      }
+    }
+minWarmup: 0.9
+shootWarmupSpeed: 0.05
+coolant: {
+  type: ConsumeLiquid
+  liquid: l1-likhorite
+  amount: 1
+    }
+coolantMultiplier: 2
+recoil: 5
+shootType: {
+  type: LaserBulletType
+  damage: 50
+  lightningDamage: 40
+  lightningLength: 30
+  lightningColor: f59331
+  colors: [f59331, f59331, f59331]
+  width: 0
+  lifetime: 12
+  laserEffect: none
+  sideLength: 0
+  lightningSpacing: 20
+  lightning: 3
+  lightningAngleRand: 4
+    }
+research: {
+  parent: t5-pandemonium
+}
+requirements: [
+  i1-osmium/2000
+  i2-carcenerite/1500
+  i3-ash/800
+  i4-crocoite/400
+  i5-cerussite/300
+  ]
