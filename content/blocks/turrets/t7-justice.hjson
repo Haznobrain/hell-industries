@@ -67,7 +67,7 @@ shootType: {
   laserEffect: none
   sideLength: 0
   lightningSpacing: 20
-  lightningAngleRand: 5
+  lightningAngleRand: 1
   lightningType: {
    type: BulletType
    damage: 0
@@ -76,14 +76,14 @@ shootType: {
    collides: false
    hitEffect: none
    shootEffect: none
-   fragBullets: 3
+   fragBullets: 2
    fragAngle: 90
    fragRandomSpread: 0
    fragBullet: {
      type: LightningBulletType
-     lightningLength: 30
+     lightningLength: 15
      lightningColor: f59331
-     damage: 45
+     damage: 30
      lifetime: 60
      lightningLengthRand: 5
     }
