@@ -13,6 +13,7 @@ outlineColor: 484150
 envDisabled: 0
 name: Cordulida
 description: Rapidly fires a storm of small slow bullets.
+targetFlags: [factory, power, core]
 research: {
   parent: unit-remanipulator
   objectives: [
