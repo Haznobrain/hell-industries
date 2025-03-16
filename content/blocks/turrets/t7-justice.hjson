@@ -7,7 +7,7 @@ consumes: {
  power: 12
    }
 range: 450
-shootSound: laserbeam
+shootSound: laserBlast
 rotateSpeed: 4
 category: turret
 name: Justice
