@@ -61,17 +61,33 @@ shootType: {
   damage: 50
   lightningDamage: 40
   length: 450
-  lightningLength: 30
-  lightningColor: f59331
   colors: [f59331, f59331, f59331]
   width: 0
   lifetime: 12
   laserEffect: none
   sideLength: 0
   lightningSpacing: 20
-  lightning: 3
-  lightningAngle: 0
-  lightningAngleRand: 4
+  lightningAngleRand: 5
+  lightningType: {
+   type: BulletType
+   damage: 0
+   lifetime: 0
+   despawnEffect: none
+   collides: false
+   hitEffect: none
+   shootEffect: none
+   fragBullets: 3
+   fragAngle: 90
+   fragRandomSpread: 0
+   fragBullet: {
+     type: LightningBulletType
+     lightningLength: 30
+     lightningColor: f59331
+     damage: 45
+     lifetime: 60
+     lightningLengthRand: 5
+    }
+    }
     }
 research: {
   parent: t5-pandemonium
