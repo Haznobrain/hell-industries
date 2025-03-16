@@ -33,6 +33,8 @@ weapons: [
   bullet: {
       type: ArtilleryBulletType
       damage: 10
+      collidesTeam: true
+      healPercent: 2
       splashDamage: 60
       splashDamageRadius: 24
       hitEffect: massiveExplosion
