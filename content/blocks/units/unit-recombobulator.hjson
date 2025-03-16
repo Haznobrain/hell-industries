@@ -17,6 +17,10 @@ upgrades: [
   u4-psecas,
   u5-brettus
   ]
+  [
+  u8-gomphi,
+  u9-macromida
+]
 ]
 research:{
   parent: unit-reconfigurator
