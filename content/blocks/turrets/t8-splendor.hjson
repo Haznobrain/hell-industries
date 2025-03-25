@@ -1,0 +1,219 @@
+type: ItemTurret
+shootSound: largeCanon
+size: 5
+shootY: 0
+shoot: {
+  type: ShootBarrel
+  shots: 2
+  barrels: [
+    10.5 ,13, 0,
+    -10.5,13,0
+    ]
+    }
+reload: 60
+recoil: 1
+range: 320
+category: turret
+name: Splendor
+description: "Fires two large cerussite coins, before firing charged cerussite bullets into them at hypersonic speed, splitting the bullets and allowing them to hit multiple ennemies while also making it homing."
+details: "COME ON MACHINE, FIGHT ME LIKE AN ANIMAL"
+maxAmmo: 40
+squareSprite: false
+shootWarmupSpeed: 0.03
+minWarmup: 0.96
+consumes: {
+  power: 5
+    }
+drawer: {
+  type: DrawTurret
+  basePrefix: hell-
+  parts: [
+    {
+    type: RegionPart
+    suffix: -blades
+    heatColor: ff0000
+    progress: recoil
+    heatProgress: reload
+    moveY: -5
+      }
+    {
+    type: ShapePart
+    y: -30
+    radius: 8
+    circle: true
+    hollow: true
+    color: feffd8
+    layer: 110
+    mirror: false
+    stroke: 0
+    strokeTo: 2
+    progress: warmup
+      }
+      {
+    type: ShapePart
+    y: -30
+    radius: 7
+    circle: false
+    sides: 6
+    hollow: true
+    color: feffd8
+    layer: 110
+    mirror: false
+    stroke: 0
+    strokeTo: 2
+    progress: warmup
+    rotateSpeed: 10
+      }
+        {
+    type: ShapePart
+    y: -30
+    radius: 7
+    circle: false
+    sides: 6
+    hollow: true
+    color: feffd8
+    layer: 110
+    mirror: false
+    stroke: 0
+    strokeTo: 2
+    progress: warmup
+    rotateSpeed: -10
+      }
+]
+}
+research: {
+  parent: t7-justice
+    }
+ammoTypes: {
+  i5-cerussite: {
+      type: BasicBulletType
+      sprite: hell-industries-deadcoin
+      backColor: d7c7af
+      frontColor: feffd8
+      mixColorFrom: ffffff00
+      mixColorTo: ffffff00
+      shrinkY: 0
+      shrinkX: 0
+      damage: 0
+      collides: false
+      speed: 4
+      lifetime: 40
+      collidesAir: false
+      collidesGround: false
+      hitEffect: none
+      despawnEffect: none
+      shootEffect: shootTitan
+      smokeEffect: shootSmokeTitan
+      spin: 2
+      fragBullets: 1
+      fragBullet: {
+        type: BasicBulletType
+        sprite: hell-industries-deadcoin
+        backColor: d7c7af
+        frontColor: feffd8
+        mixColorFrom: ffffff00
+        mixColorTo: ffffff00
+        shrinkY: 0
+        shrinkX: 0
+        damage: 0
+        collides: false
+        speed: 0
+        lifetime: 15
+        collidesAir: false
+        collidesGround: false
+        hitEffect: none
+        despawnEffect: none
+        spin: 1
+                  hitColor: feffd8
+}
+        hitColor: feffd8
+      spawnBullets:[
+{
+    type: BulletType
+    lifetime: 14
+    hitEffect: none
+    despawnEffect: none
+    speed: 0
+    fragBullets: 1
+    fragRandomSpread: 0
+    fragBullet: {
+        type: RailBulletType
+        length: 160
+        lineEffect: {
+            type: ParticleEffect
+            line: true
+            particles: 7
+            strokeFrom: 1
+            strokeTo: 0
+            colorFrom: feffd8
+            colorTo: feffd8
+            lenFrom: 160
+            lenTo: 160
+            cone: 116
+            length: 0.001
+            lifetime: 20
+          }
+        pointEffect: {
+            type: ParticleEffect
+            line: false
+            particles: 12
+            colorFrom: feffd8aa
+            colorTo: feffd8aa
+            sizeFrom: 10
+            sizeTo: 0
+            length: 16
+            lifetime: 30
+          }
+        hitEffect: massiveExplosion
+        damage: 245
+        pierceEffect: hitBulletColor
+        hitColor: feffd8
+        pointEffectSpace: 10
+          }
+}
+{
+  type: BasicBulletType
+  speed: 11.43
+  lifetime: 14
+  collides: false
+  damage: 0
+  despawnEffect: hitBulletBig
+  hitEffect: none
+  collidesAir: false
+  collidesGround: true
+  fragBullets: 2
+  fragBullet: {
+    type: BulletType
+    speed: 80
+    lifetime: 2
+    damage: 160
+    hitEffect: hitBulletColor
+    hitColor: feffd8
+    trailEffect: {
+            type: ParticleEffect
+            line: false
+            particles: 12
+            colorFrom: feffd8aa
+            colorTo: feffd8aa
+            sizeFrom: 10
+            sizeTo: 0
+            length: 16
+            lifetime: 30
+          }
+     trailInterval: 0.1
+    pierce: true
+    pierceBuilding: true
+    pierceDamageFactor: 0.05
+    despawnEffect: massiveExplosion
+}
+}
+  ]
+}
+}
+requirements: [
+  i1-osmium/4000
+  i2-carcenerite/4500
+  i3-ash/4000
+  i4-crocoite/950
+  i5-cerussite/450
+  ]
