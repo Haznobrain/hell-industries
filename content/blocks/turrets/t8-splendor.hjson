@@ -192,6 +192,7 @@ ammoTypes: {
     damage: 160
     hitEffect: hitBulletColor
     hitColor: feffd8
+    homingPower: 360
     trailEffect: {
             type: ParticleEffect
             line: false
