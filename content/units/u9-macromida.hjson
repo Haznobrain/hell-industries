@@ -6,6 +6,7 @@ drag: 0.09
 accel: 0.1
 engineSize: 16
 engineOffset: 38
+hitSize: 72
 trailLength: 40
 outlineColor: 484150
 envDisabled: 0
