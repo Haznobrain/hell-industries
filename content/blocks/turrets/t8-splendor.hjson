@@ -1,5 +1,5 @@
 type: ItemTurret
-shootSound: largeCanon
+shootSound: largeCannon
 size: 5
 shootY: 0
 shoot: {
@@ -94,10 +94,12 @@ ammoTypes: {
       mixColorTo: ffffff00
       shrinkY: 0
       shrinkX: 0
+      height: 16
+      width: 16
       damage: 0
       collides: false
-      speed: 4
-      lifetime: 40
+      speed: 40
+      lifetime: 4
       collidesAir: false
       collidesGround: false
       hitEffect: none
@@ -130,7 +132,7 @@ ammoTypes: {
       spawnBullets:[
 {
     type: BulletType
-    lifetime: 14
+    lifetime: 18
     hitEffect: none
     despawnEffect: none
     speed: 0
@@ -172,9 +174,9 @@ ammoTypes: {
           }
 }
 {
-  type: BasicBulletType
-  speed: 11.43
-  lifetime: 14
+  type: BulletType
+  speed: 8.8888888888888888888888888888888888888888
+  lifetime: 18
   collides: false
   damage: 0
   despawnEffect: hitBulletBig
@@ -182,6 +184,7 @@ ammoTypes: {
   collidesAir: false
   collidesGround: true
   fragBullets: 2
+  fragVelocityMin: 1
   fragBullet: {
     type: BulletType
     speed: 80
