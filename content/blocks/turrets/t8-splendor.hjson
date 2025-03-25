@@ -168,6 +168,8 @@ ammoTypes: {
           }
         hitEffect: massiveExplosion
         damage: 245
+        collidesAir: true
+        collidesGround: true
         pierceEffect: hitBulletColor
         hitColor: feffd8
         pointEffectSpace: 10
@@ -182,7 +184,7 @@ ammoTypes: {
   despawnEffect: hitBulletBig
   hitEffect: none
   collidesAir: false
-  collidesGround: true
+  collidesGround: false
   fragBullets: 2
   fragVelocityMin: 1
   fragBullet: {
@@ -209,6 +211,7 @@ ammoTypes: {
     pierceBuilding: true
     pierceDamageFactor: 0.05
     despawnEffect: massiveExplosion
+    homingRange: 320
 }
 }
   ]
