@@ -1,0 +1,17 @@
+difficulty: 10
+planet: persephone
+sector: 1
+research: {
+  parent: s4-iwr
+  objectives: [
+      t5-pandemonium
+    ]
+    }
+description: " HUGE ENNEMY BASE HERE.
+            ENNEMY UNIT PRODUCTION IS EXTREMELY HIGH. AND THEY WONT LET GO OF THIS EASILY.
+        WE CANT EVEN HELP YOU WITH OUR GRAV LENS BECAUSE ITS KINDA OUT OF ORDER RIGHT NOW-
+              SO UHM LIKE
+          GOOD LUCK YOU ARE GONNA NEED IT."
+alwaysUnlocked: true
+attackAfterWaves: true
+captureWave: 75
