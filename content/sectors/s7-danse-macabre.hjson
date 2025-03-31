@@ -1,0 +1,15 @@
+difficulty: 10
+planet: persephone
+sector: 6
+research: {
+  parent: s6-brd
+  objectives: [
+      t7-justice,
+      f3-cerussite-synthesis-chamber
+    ]
+    }
+description: " This sector has extremely powerful ennemy turrets and units.
+          Even with our scans, we arent sure what the full extent of it is so be ready for anything.
+        The ground of this area is unstable and as such we will use 1k osmium every 5 minutes to stabilise it for you.
+        this is getting tiring. D O N O T D I S S A P O I N T."
+alwaysUnlocked: true
