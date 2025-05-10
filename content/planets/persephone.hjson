@@ -23,7 +23,7 @@ atmosphereColor: d3c6c0
 iconColor: ff0000
 localizedName: "[red]Persephone"
 allowWaveSimulation: false
-clearSectorOnLose: false
+clearSectorOnLose: true
 allowWaves: true
 prebuildBase: true
 defaultCore: core-quarry
