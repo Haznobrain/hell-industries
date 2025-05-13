@@ -39,4 +39,3 @@ requirements: [
   i2-carcenerite/50
   i3-ash/200
   ]
-description: "Creates crocoite by fusing compounds from osmium and ash. Requires a large amount of power."
