@@ -3,8 +3,6 @@ health: 100
 speed: 3
 range: 5
 research: osmium-router
-name: Osmium Bridge
-description: "Moves items over walls and other structures. Directional."
 researchCost: [
   i1-osmium/100
   ]

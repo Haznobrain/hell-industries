@@ -12,9 +12,6 @@ outlineColor: 484150
 envDisabled: 0
 health: 21000
 armor: 16
-name: Macromida
-description: Fires a beam of finely pulverised cerussite particles.
-details: Macaroni prime
 targetFlags: [factory, drill, core]
 research: {
   parent: unit-recombobulator

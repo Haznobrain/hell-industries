@@ -4,8 +4,6 @@ range: 170
 xRand: 6
 reload: 40
 category: turret
-name: Stardust
-description: Fires small ash pellets that pierce and deal knockback.
 consumes: {
   power: 2
     }

@@ -7,8 +7,6 @@ health: 8550
 layer: 74.04
 armor: 13
 hovering: true
-name: Psecas
-description: Fires a piercing hitscan spear. Very tanky.
 shadowElevation: 0.3
 legStraightness: 0
 legSpeed: 0.72

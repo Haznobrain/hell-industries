@@ -5,9 +5,6 @@ xRand: 14
 category: turret
 shootSound: laserblast
 range: 250
-name: Pandemonium
-description: Fires a burst of lasers.
-details:"LIVE [PANOPTICON] REACTION"
 drawer: {
   type: DrawTurret
   basePrefix: hell-

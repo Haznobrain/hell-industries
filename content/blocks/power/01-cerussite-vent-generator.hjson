@@ -1,6 +1,4 @@
 type: ThermalGenerator
-name: Carcenerite Vent Generator
-description: produces power and likhorite off of carceneritic vents.
 requirements: [
   i1-osmium/75
   ]

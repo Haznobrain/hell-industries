@@ -7,8 +7,6 @@ researchCost: [
   i1-osmium/20
   ]
 research: core-quarry
-name: Ash Grinder
-description: Scrapes ash off of hardened ash walls.
 drillTime: 120
 consumes: {
   power: 0.35

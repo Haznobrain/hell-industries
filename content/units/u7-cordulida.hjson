@@ -11,8 +11,6 @@ health: 850
 armor: 4
 outlineColor: 484150
 envDisabled: 0
-name: Cordulida
-description: Rapidly fires a storm of small slow bullets.
 targetFlags: [factory, generator, core]
 research: {
   parent: unit-remanipulator

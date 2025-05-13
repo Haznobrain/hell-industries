@@ -1,6 +1,5 @@
 type: ImpactReactor
 size: 4
-name: Crocoite Explosion Motor
 health: 1000
 powerProduction: 230
 itemDuration: 300

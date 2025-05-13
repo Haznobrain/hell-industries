@@ -3,8 +3,6 @@ range: 160
 reload: 30
 category: turret
 shootY: 0
-name: Inflict
-description: Fires superheated Carcenerite spikes at ennemy targets.
 shoot: {
   type: ShootBarrel
   shots: 2

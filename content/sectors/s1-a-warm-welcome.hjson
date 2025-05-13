@@ -2,12 +2,4 @@ difficulty: 3
 planet: persephone
 sector: 5
 research: core-quarry
-localizeName: "//PERSEPHONE//
-           FIRST//A Warm Welcome"
-description: "So uh yeah. 
-  You can mine dunite walls to get osmium and carcenerite walls to get well, carcenerite.
-
-  Put wall grinders on ash walls to get ash (duh) and don't forget to build fast else you will be swarmed quickly.
-
-  We need you to take this because uh our unpaid intern accidentally sold Persephone to the malis team and like that's no good or some shit."
 alwaysUnlocked: true

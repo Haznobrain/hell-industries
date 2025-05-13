@@ -7,8 +7,6 @@ health: 1150
 layer: 74.032
 armor: 9
 hovering: true
-name: Tapsatella
-description: Fires a molten orb of magma.
 shadowElevation: 0.15
 legStraightness: 0.5
 legSpeed: 0.85

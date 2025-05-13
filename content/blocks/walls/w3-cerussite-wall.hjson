@@ -1,7 +1,6 @@
 type: Wall
 health: 1000
 size: 1
-name: Cerussite Wall
 destroyBulletSameTeam: true
 destroyBullet: {
   type: BulletType

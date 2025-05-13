@@ -14,9 +14,6 @@ reload: 60
 recoil: 1
 range: 320
 category: turret
-name: Splendor
-description: "Fires two large cerussite coins, before firing charged cerussite bullets into them at hypersonic speed, splitting the bullets and allowing them to hit multiple ennemies while also making it homing."
-details: "COME ON MACHINE, FIGHT ME LIKE AN ANIMAL"
 maxAmmo: 40
 squareSprite: false
 shootWarmupSpeed: 0.03

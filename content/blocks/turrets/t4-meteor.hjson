@@ -5,8 +5,6 @@ range: 180
 shootY: 8
 shootSound: shootAlt
 category: turret
-name: Meteor
-description: "showers ennemies with low damage non-piercing bullets."
 inaccuracy: 30
 squareSprite: false
 drawer: {

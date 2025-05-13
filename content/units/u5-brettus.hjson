@@ -7,8 +7,6 @@ health: 28000
 layer: 74.072
 armor: 30
 hovering: true
-name: Brettus
-description: An artillery platform. Insanely tanky.
 shadowElevation: 0.5
 legStraightness: 0
 legSpeed: 0.4

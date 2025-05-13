@@ -5,8 +5,6 @@ range: 240
 shootY: 10
 shootSound: artillery
 category: turret
-name: Conflict
-description: Fires a fragmentary osmium shell that deals higher dmg to ennemies further from its point of impact. Or can use carcenerite and fire a longer-range bolt instead.
 squareSprite: false
 shootCone: 2
 drawer: {

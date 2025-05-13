@@ -1,8 +1,6 @@
 type: Wall
 health: 4000
 size: 2
-name: Large Cerussite Wall
-description: "A durable wall that explodes into a ton of damaging fragments upon destruction. Absorbs lasers."
 destroyBulletSameTeam: true
 absorbLasers: true
 destroyBullet: {

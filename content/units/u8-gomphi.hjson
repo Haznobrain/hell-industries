@@ -11,8 +11,6 @@ health: 6500
 armor: 7
 outlineColor: 484150
 envDisabled: 0
-name: Gomphi
-description: Fires artillery shells at nearby targets
 targetFlags: [factory, battery, core]
 research: {
   parent: unit-reconfigurator

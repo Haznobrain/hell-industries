@@ -1,6 +1,5 @@
 type: Wall
 size: 1
-name: Carcenerite Wall
 health: 450
 requirements: [
   i2-carcenerite/6
@@ -9,5 +8,4 @@ researchCost: [
   i2-carcenerite/20
   ]
 research: core-quarry
-description: "A simple wall that blocks ennemy projectiles. Larger variants can block lasers."
 category: defense

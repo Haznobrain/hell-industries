@@ -1,5 +1,3 @@
-name: Unit Factory
-description: Produces tier one units.
 type: UnitFactory
 configurable: true
 regionSuffix: -pers

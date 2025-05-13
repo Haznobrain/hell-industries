@@ -7,8 +7,7 @@ consumes: {
   powerBuffered: 12000
     }
 research: power-transmitter
-name: Carcenerite Battery
-description: stores power.
+
 requirements: [
   i2-carcenerite/135
   ]

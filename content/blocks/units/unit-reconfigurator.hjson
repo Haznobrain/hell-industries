@@ -30,8 +30,6 @@ research:{
     }
     ]
     }
-name: Unit Reconfigurator
-description: " Like this literally just hits the units with more materials till shit sticks :/."
 requirements: [
     i1-osmium/400
     i2-carcenerite/350

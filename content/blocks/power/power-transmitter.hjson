@@ -7,8 +7,6 @@ researchCost: [
     i2-carcenerite/10
   ]
 research: 01-cerussite-vent-generator
-name: Power Transmitter
-description: Transmits power.
 size: 2
 maxNodes: 30
 laserRange: 22

@@ -4,8 +4,6 @@ range: 7
 tier: 2
 optionalBoostIntensity: 1.5
 //you wont be able to really boost it so why the fuck make it worth it
-name: Wall Drill
-description: Extracts ores from certain walls.
 consumes: {
   liquids: {
     liquids: [

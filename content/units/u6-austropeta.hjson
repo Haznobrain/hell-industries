@@ -11,8 +11,6 @@ health: 210
 armor: 2
 outlineColor: 484150
 envDisabled: 0
-name: Austropeta
-description: A fast moving flying unit that fires small and slow homing bullets at a rapid pace.
 research: {
   parent: unit-factory
   objectives: [

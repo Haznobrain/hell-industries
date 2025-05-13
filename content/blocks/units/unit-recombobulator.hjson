@@ -25,8 +25,6 @@ upgrades: [
 research:{
   parent: unit-reconfigurator
     }
-name: Unit Recombobulator
-description: "And this uhm. Like, it makes bigger so like it upgrades. Trust."
 requirements: [
     i1-osmium/1200
     i2-carcenerite/1000

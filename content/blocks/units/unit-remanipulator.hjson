@@ -28,8 +28,6 @@ research:{
     }
     ]
     }
-name: Unit Remanipulator
-description: We don't know how but slapping more carcenerite on a unit makes it stronger so uh that's cool ig.
 requirements: [
     i1-osmium/200
     i2-carcenerite/200

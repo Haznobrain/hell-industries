@@ -1,7 +1,4 @@
 type: ItemTurret
-name: War
-description: A massively powerful shotgun.
-details: "This one has a reason :3"
 size: 4
 reload: 90
 shake: 2
@@ -51,7 +48,7 @@ ammoTypes: {
   color2: a2564955
     }
     ]
-    damage: 40
+    damage: 45
     speed: 5
     lifetime: 32
     hitEffect:{

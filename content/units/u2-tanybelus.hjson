@@ -7,8 +7,6 @@ health: 400
 layer: 74.02
 armor: 6
 hovering: true
-name: Tanybelus
-description: Fires a spike of ash and then two additional small missiles. Can step over structures and other units.
 shadowElevation: 0.1
 legStraightness: 0.2
 legSpeed: 0.9
