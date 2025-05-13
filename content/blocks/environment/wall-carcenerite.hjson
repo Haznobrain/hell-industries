@@ -1,5 +1,4 @@
 type: OreBlock
-name: Wall Carcenerite
 wallOre: true
 itemDrop: i2-carcenerite
 variants: 2

@@ -2,7 +2,6 @@ type: SteamVent
 attributes: {
   heat: 1
     }
-name: Carcenerite Vent
 effect: ventSteam
 effectColor: d3c6c0
 blendGroup: carcenerite-floor
