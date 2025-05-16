@@ -12,6 +12,9 @@ outlineColor: 484150
 envDisabled: 0
 health: 21000
 armor: 16
+immunities: [
+  unmoving
+]
 targetFlags: [factory, drill, core]
 research: {
   parent: unit-recombobulator
