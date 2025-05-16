@@ -29,6 +29,9 @@ legSplashRange: 60
 legSplashDamage: 120
 legGroupSize: 2
 rotateSpeed: 3.4
+immunities: [
+    unmoving
+]
 weapons: [
 {
 name: u5-brettus-gun
