@@ -71,6 +71,8 @@ shootType: {
     trailLength: 20
     shootEffect: shootSmallColor
     smokeEffect: none
+    status: unmoving
+    statusDuration: 12
       }
 requirements:[
     i1-osmium/50
