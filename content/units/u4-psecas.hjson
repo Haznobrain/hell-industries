@@ -25,6 +25,9 @@ rippleScale: 0.3
 legMoveSpace: 1
 legPhysicsLayer: false
 mechStepShake: 0.2
+immunities: [
+  unmoving
+]
 weapons: [
 {
 name: u4-psecas-weapon
