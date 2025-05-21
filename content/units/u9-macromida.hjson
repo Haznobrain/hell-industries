@@ -41,6 +41,7 @@ weapons: [
   bullet: {
     chargeEffect: {
       type: MultiEffect
+      offsetY: 32
       effects: [
         {
         type: ParticleEffect
@@ -52,9 +53,11 @@ weapons: [
         lifetime: 240
         colorFrom: ffffff6a
         colorTo: ffffffff
-        stroke: 2
+        strokeFrom: 2
+        strokeTo: 2
         line: true
         offset: 180
+        layer: 121
         }
         {
         type: ParticleEffect
@@ -66,9 +69,11 @@ weapons: [
         lifetime: 240
         colorFrom: ffffff33
         colorTo: ffffff66
-        stroke: 1.5
+        strokeFrom: 1.5
+        strokeTo: 1.5
         line: true
         offset: 180
+        layer: 121
         }
         {
         type: ParticleEffect
@@ -80,9 +85,11 @@ weapons: [
         lifetime: 240
         colorFrom: ffffff55
         colorTo: ffffffbb
-        stroke: 2
+        strokeFrom: 2
+        strokeTo: 2
         line: true
         offset: 180
+        layer: 121
         }
         ]
         }
@@ -211,6 +218,7 @@ weapons: [
     width: 0.2
     trailWidth: 0.1
     hitEffect: colorSpark
+    despawnEffect: colorSpark
     }
 }
 ]
