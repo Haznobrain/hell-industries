@@ -206,14 +206,16 @@ weapons: [
       }
   bullet: {
     type: BasicBulletType
-    damage: 0.8
-    splashDamage: 0.4
+    damage: 2.4
+    splashDamage: 1.2
+    splashDamageRadius: 0.5
     trailLength: 5
     speed: 6
     lifetime: 20
     frontColor: ff8234
     backColor: ff8234
     trailColor: ff8234
+    hitColor: ff8234
     height: 0.5
     width: 0.2
     trailWidth: 0.1
