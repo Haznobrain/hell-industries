@@ -1,7 +1,7 @@
 type: flying
 flying: true
 shadowElevation: 1.5
-speed: 0.9
+speed: 0.5
 drag: 0.09
 accel: 0.1
 engineSize: 16
@@ -22,19 +22,195 @@ research: {
 fogRadius: 26
 weapons: [
   {
-  continuous: true
-  alwaysContinuous: true
   x: 0
   y: 0
-  shootSound: torch
-  bullet: {
-    type: ContinuousFlameBulletType
-    flareColor: feffd8
-    colors: [ede8c98c, ede8c9b2, feffd8cc, feffd8ff, ffffffff]
-    damage: 60
-    pierceCap: 3
-    hitColor: feffd8
-    length: 208
+  shootSound: laserblast
+  reload: 2000
+  rotate: false
+  shootCone: 0.4
+  shoot: {
+    firstShotDelay: 240
+    }
+  shootStatus: {
+    hidden: true
+    name: gehfhfjhjh
+    healthMultiplier: 0.2
+    speedMultiplier: 0
+    effect: none
       }
+  bullet: {
+    chargeEffect: {
+      type: MultiEffect
+      effects: [
+        {
+        type: ParticleEffect
+        cone: 15
+        particles: 12
+        lenFrom: 5
+        lenTo: 6
+        interp: pow3In
+        lifetime: 240
+        colorFrom: ffffff6a
+        colorTo: ffffffff
+        stroke: 2
+        line: true
+        offset: 180
+        }
+        {
+        type: ParticleEffect
+        cone: 15
+        particles: 20
+        lenFrom: 4
+        lenTo: 3
+        interp: pow3In
+        lifetime: 240
+        colorFrom: ffffff33
+        colorTo: ffffff66
+        stroke: 1.5
+        line: true
+        offset: 180
+        }
+        {
+        type: ParticleEffect
+        cone: 15
+        particles: 8
+        lenFrom: 4
+        lenTo: 8
+        interp: pow3In
+        lifetime: 240
+        colorFrom: ffffff55
+        colorTo: ffffffbb
+        stroke: 2
+        line: true
+        offset: 180
+        }
+        ]
+        }
+    shootEffect: none
+    smokeEffect: shockwave
+    type: BasicBulletType
+    height: 16
+    width: 6
+    backColor: ffffff
+    frontColor: ffffff
+    trailColor: ffffff
+    speed: 300
+    damage: 450
+    splashDamage: 1500
+    splashDamageRadius: 240
+    hitEffect: {
+      type: MultiEffect
+      effects: [
+    {
+    type: ParticleEffect
+    sizeFrom: 8000
+    sizeTo: 8000
+    colorFrom: ffffff
+    colorTo: ffffff66
+    lifetime: 5
+    layer: 220
+    }
+                       {
+                            type: ParticleEffect
+                            colorFrom: ffffff66
+                            colorTo: ffffff66
+                            particles: 20
+                            sizeFrom: 24
+                            sizeTo: 0
+                            length: 240
+                            baseLength: 240
+                            interp: circleOut
+                            sizeInterp: pow5In
+                            lifetime: 300
+                        }
+                        {
+                            type: ParticleEffect
+                            colorFrom: ffffff66
+                            colorTo: ffffff66
+                            particles: 88
+                            sizeFrom: 10
+                            sizeTo: 0
+                            length: 240
+                            baseLength: 240
+                            interp: circleOut
+                            sizeInterp: pow5In
+                            lifetime: 290
+                        }
+                        {
+                            type: ParticleEffect
+                            colorFrom: ffffff
+                            colorTo: ffffff
+                            particles: 90
+                            line: true
+                            lenFrom: 30
+                            lenTo: 0
+                            strokeTo: 3
+                            strokeFrom: 5
+                            length: 240
+                            baseLength: 240
+                            interp: circleOut
+                            sizeInterp: pow5In
+                            lifetime: 100
+                        }
+                        {
+                            type: ParticleEffect
+                            colorFrom: ffffff
+                            colorTo: ffffff
+                            particles: 110
+                            line: true
+                            lenFrom: 3
+                            lenTo: 0
+                            strokeTo: 1
+                            strokeFrom: 3
+                            length: 240
+                            baseLength: 240
+                            interp: circleOut
+                            sizeInterp: pow5In
+                            lifetime: 150
+                        }
+                        {
+                            type: WaveEffect
+                            colorFrom: ffffff
+                            colorTo: ffffff
+                            lifetime: 120
+                            sizeTo: 240
+                            strokeFrom: 80
+                        }
+                    ]
+            }
+            despawnEffect: none
+            lifetime: 2
+            trailLength: 40
+            trailInterp: 1
+            trailWidth: 24
+        }
+}
+{
+  rotate: true
+  rotateSpeed: 4
+  reload: 5
+  shootSound: shootSnap
+  y: -8
+  x: 8
+  xRand: 6
+  shoot: {
+    shots: 4
+    shotDelay: 6
+      }
+  bullet: {
+    type: BasicBulletType
+    damage: 0.8
+    splashDamage: 0.4
+    trailLength: 5
+    speed: 6
+    lifetime: 20
+    frontColor: ff8234
+    backColor: ff8234
+    trailColor: ff8234
+    height: 0.5
+    width: 0.2
+    trailWidth: 0.1
+    hitEffect: spark
+    }
 }
 ]
