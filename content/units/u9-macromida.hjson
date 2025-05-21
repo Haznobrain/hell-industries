@@ -181,7 +181,7 @@ weapons: [
             despawnEffect: none
             lifetime: 2
             trailLength: 40
-            trailInterp: 1
+            trailInterp: one
             trailWidth: 24
         }
 }
