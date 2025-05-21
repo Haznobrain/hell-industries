@@ -28,6 +28,7 @@ weapons: [
   reload: 2000
   rotate: false
   shootCone: 0.4
+  mirror: false
   shoot: {
     firstShotDelay: 240
     }
