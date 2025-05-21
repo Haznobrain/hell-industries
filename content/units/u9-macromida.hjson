@@ -210,7 +210,7 @@ weapons: [
     height: 0.5
     width: 0.2
     trailWidth: 0.1
-    hitEffect: spark
+    hitEffect: colorSpark
     }
 }
 ]
