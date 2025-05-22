@@ -36,7 +36,34 @@ weapons: [
       healPercent: 2
       splashDamage: 60
       splashDamageRadius: 24
-      hitEffect: massiveExplosion
+      hitEffect:{
+        type: MultiEffect
+        effects: [massiveExplosion, sparkExplosion,
+        {
+          type: ParticleEffect
+          particles: 1
+          sizeFrom: 8
+          length: 19
+          colorFrom: f59331
+          colorTo: f59331
+        }
+                {
+          type: ParticleEffect
+          particles: 5
+          sizeFrom: 4
+          length: 19
+          colorFrom: f59331
+          colorTo: f59331
+        }
+        {
+          type: WaveEffect
+          strokeFrom: 12
+          strokeTo: 0.5
+          lifetime: 15
+          colorTo: f59331
+        }
+        ]
+      } 
       hitSound: dullExplosion
       speed: 4
       lifetime: 36
@@ -52,7 +79,9 @@ weapons: [
       trailWidth: 7.5
       trailLength: 5
       shootEffect: shootTitan
-      smokeEffect: shootSmokeTitan
+      smokeEffect: {
+        type: RadialEffect
+        effect: shootSmokeTitan
         }
 }
 ]

@@ -25,8 +25,9 @@ ammoTypes: {
     type: BasicBulletType
     damage: 15
     hitEffect: hitBulletColor
-    despawnEffect: none
+    despawnEffect: hitBulletColor
     trailEffect: missileTrail
+    trailChance: 0.2
     frontColor: a25649
     backColor: 884545
     trailColor: 884545
@@ -36,7 +37,7 @@ ammoTypes: {
     speed: 5
     lifetime: 36
     shootEffect: shootSmallColor
-    smokeEffect: none
+    smokeEffect: shootSmokeSquareBig
     sprite: circle-bullet
     ammoMultiplier: 5
       }
@@ -44,8 +45,9 @@ ammoTypes: {
     type: BasicBulletType
     damage: 50
     hitEffect: hitBulletColor
-    despawnEffect: none
+    despawnEffect: hitBulletColor
     trailEffect: missileTrail
+    trailChance: 0.2
     frontColor: f59331
     backColor: d75415
     trailColor: d75415
@@ -57,7 +59,7 @@ ammoTypes: {
     speed: 5
     lifetime: 36
     shootEffect: shootSmallColor
-    smokeEffect: none
+    smokeEffect: shootSmokeSquareBig
     status: burning
       }
 }

@@ -50,7 +50,7 @@ layerOffset: -0.001
 top: false
 bullet: {
     type: ArtilleryBulletType
-    speed: 2.5
+    speed: 5
     damage: 250
     sprite: shell
     hitEffect: {
@@ -77,9 +77,41 @@ bullet: {
         }
     ]
     }
+    trailEffect: {
+      type: MultiEffect
+      effects:[
+        {
+          type: ParticleEffect
+          lifetime: 20
+          particles: 8
+          sizeFrom: 6
+          sizeTo: 0
+          length: 36
+          layer: 110
+          colorFrom: f59331
+          colorTo: f59331
+          cone: 20
+          offset: 125
+        }
+                {
+          type: ParticleEffect
+          lifetime: 20
+          particles: 8
+          sizeFrom: 6
+          sizeTo: 0
+          length: 36
+          layer: 110
+          colorFrom: f59331
+          colorTo: f59331
+          cone: 20
+          offset: 215
+        }
+      ]
+    }
+    trailInterval: 4
     despawnEffect: none
     knockback: 2
-    lifetime: 130
+    lifetime: 65
     height: 30
     width: 25
     splashDamageRadius: 250
@@ -97,7 +129,14 @@ bullet: {
     trailSinMag: 0.5
     trailEffect: none
     despawnShake: 7
-    shootEffect: shootTitan
+    shootEffect: {
+      type: WrapEffect
+      rotWithParent: true
+      followParent: true
+      color: f59331
+      rotation: 60
+      effect: dynamicSpikes
+    }
     smokeEffect: {
       type: WrapEffect
       effect: shootSmokeTitan

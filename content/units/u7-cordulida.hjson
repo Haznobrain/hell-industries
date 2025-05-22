@@ -44,7 +44,7 @@ weapons: [
     trailRotation: true
     trailEffect: {
       type: ParticleEffect
-      offset: 90
+      offset: -90
       region: hell-industries-arc-bullet
       colorFrom: f9d2c0aa
       colorTo: f9d2c000
@@ -53,6 +53,7 @@ weapons: [
       rotWithParent: true
       lifetime: 40
         }
+      hitEffect: sparkExplosion
       homingPower: 0.03
       damage: 6
       homingDelay: 30

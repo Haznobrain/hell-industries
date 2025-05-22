@@ -177,6 +177,11 @@ ammoTypes: {
     height: 12
     width: 10
     trailWidth: 2.5
+    trailEffect:  {
+      type: WrapEffect
+      effect: shootSmokeSquareBig
+      color: f9d2c0
+      }
     spawnBullets: [
 {
     type: BulletType

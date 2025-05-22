@@ -41,6 +41,7 @@ ammoTypes: {
       despawnEffect: none
       hitColor: d3c6c0
       shootEffect: shootBigColor
+      layer: 100
       smokeEffect: {
         type: ParticleEffect
         line: true

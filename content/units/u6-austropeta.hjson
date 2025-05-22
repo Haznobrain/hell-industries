@@ -45,6 +45,16 @@ bullet: {
   keepVelocity: false
   hitEffect: hitBulletColor
   despawnEffect: hitBulletColor
+  trailInterval: 6
+  trailEffect: {
+      type: ParticleEffect
+      particles: 3
+      colorFrom: f9d2c0a6
+      colorTo: f9d2c0a6
+      lifetime: 15
+      length: 4
+      sizeFrom: 4
+  }
   height: 8
   width: 6
   trailWidth: 2.8

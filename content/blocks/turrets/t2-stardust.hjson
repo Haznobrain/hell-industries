@@ -51,11 +51,12 @@ shootType: {
       interp: pow10In
         }
   followRotation: false
-  layer: 99
+  layer: 100
   color1: a25649
   color2: a25649
     }
     ]
+    layer: 100
     damage: 8
     pierceCap: 2
     knockback: 3

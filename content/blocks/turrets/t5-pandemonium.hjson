@@ -51,6 +51,18 @@ shootType: {
   damage: 65
   largeHit: true
   pierceCap: 10
+  shootEffect: {
+      type: ParticleEffect
+      line: true
+      lenFrom: 6
+      lenTo: 5
+      strokeFrom: 1
+      strokeTo: 0
+      lifetime: 20
+      colorTo: f59331aa
+      length: 30
+      particles: 12
+  }
     }
 research: {
   parent: t2-stardust

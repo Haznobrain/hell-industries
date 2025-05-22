@@ -53,11 +53,11 @@ ammoTypes: {
     lifetime: 32
     hitEffect:{
       type: MultiEffect
-      effects: [hitBulletColor, massiveExplosion]
+      effects: [hitBulletColor, massiveExplosion, hitSquaresColor, shootSmokeSquareBig]
         }
-    despawnEffect: massiveExplosion
+    despawnHit: true
     shootEffect: shootBigColor
-    smokeEffect: smokeCloud
+    smokeEffect: shootSmokeSquareBig
       }
 }
 requirements:[

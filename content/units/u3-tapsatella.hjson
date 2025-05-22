@@ -55,6 +55,9 @@ bullet: {
   splashDamageRadius: 8
   height: 12
   width: 12
+  trailLength: 5
+  trailWidth: 6
+  trailColor: ff9c5a
   shrinkY: 0
   shrinkX: 0
   frontColor: ff9c5a
@@ -63,8 +66,20 @@ bullet: {
   pierceBuilding: true
   pierceCap: 2
   shootEffect: shootTitan
-  smokeEffect: shockwave
-  hitEffect: blastExplosion
+  smokeEffect: dynamicSpikes
+  hitEffect: {
+    type: ExplosionEffect
+    smokes: 12
+    smokeRad: 10
+    sparks: 6
+    sparkLen: 3
+    smokeSize: 6
+    waveLife: 13
+    waveStroke: 4
+    waveRad: 12
+    smokeColor: ff9c5a
+    sparkColor: ff9c5a
+  }
   despawnEffect: smokeCloud
 }
 }

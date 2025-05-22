@@ -36,6 +36,7 @@ bullet: {
   type: ShrapnelBulletType
   damage: 12
   shootEffect: shootBigColor
+  layer: 100
   smokeEffect: {
     type: ParticleEffect
     line: true
@@ -77,6 +78,7 @@ bullet: {
     splashDamage: 4
     splashDamageRadius: 8
     trailLength: 4
+    layer: 100
       }
 }
 }

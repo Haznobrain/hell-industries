@@ -98,6 +98,18 @@ weapons: [
     shootEffect: none
     smokeEffect: shockwave
     type: BasicBulletType
+    trailEffect: {
+            type: ParticleEffect
+            line: false
+            particles: 12
+            colorFrom: feffd8aa
+            colorTo: feffd8aa
+            sizeFrom: 10
+            sizeTo: 0
+            length: 16
+            lifetime: 30
+          }
+     trailInterval: 0.1
     height: 16
     width: 6
     backColor: ffffff
@@ -226,6 +238,9 @@ weapons: [
     trailWidth: 0.1
     hitEffect: colorSpark
     despawnEffect: colorSpark
+    trailEffect: missileTrailShort
+    trailScl: 0.1
+    trailChance: 0.09
     }
 }
 ]
