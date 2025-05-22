@@ -49,8 +49,8 @@ bullet: {
     strokeTo: 0
     colorTo: a25649
       }
-  fromColor: a25649
-  toColor: 884545
+  fromColor: ff9c5a
+  toColor: ff9c5a
   lifetime: 12
   length: 128
   serrations: 0
@@ -58,7 +58,7 @@ bullet: {
   fragBullets: 2
   fragRandomSpread: 2
   fragSpread: 0.5
-  hitColor: 884545
+  hitColor: ff9c5a
   laserAbsorb: true
   pierce: false
   pierceBuilding: false
