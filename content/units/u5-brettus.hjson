@@ -1,7 +1,7 @@
 type: legs
 outlineColor: 484150
 envDisabled: 0
-speed: 0.4
+speed: 0.5
 hitSize: 72
 health: 28000
 layer: 74.072
@@ -35,7 +35,7 @@ immunities: [
 weapons: [
 {
 name: u5-brettus-gun
-reload: 120
+reload: 1425
 x: 33.25
 y: -0.5
 recoil: 5
@@ -51,25 +51,17 @@ top: false
 bullet: {
     type: ArtilleryBulletType
     speed: 2.5
-    damage: 300
+    damage: 250
     sprite: shell
     hitEffect: {
       type: MultiEffect
       effects: [
         {
-          type: ExplosionEffect
-          smokeColor: f59331aa
-          sparkColor: f59331
-          waveColor: f59331
-          smokes: 12
-          smokeSize: 6
-          sparkLen: 20
-          waveRad: 60
-          waveLife: 20
-          sparks: 30
-          smokeRad: 80
-          sparkRad: 80
-            }
+          type: WaveEffect
+          colorFrom: f59331
+          sizeTo: 250
+          lightColor: f59331
+        }
         {
           type: ParticleEffect
           particles: 12
@@ -82,17 +74,17 @@ bullet: {
           lightColor: f59331
           length: 80
           lifetime: 80
-            }
-            ]
         }
+    ]
+    }
     despawnEffect: none
     knockback: 2
     lifetime: 130
     height: 30
     width: 25
-    splashDamageRadius: 80
-    scaledSplashDamage: true
-    splashDamage: 450
+    splashDamageRadius: 250
+    splashDamage: 525
+    scaledSplashDamage: false
     backColor: f59331
     hitColor: f59331
     trailColor: f59331
@@ -113,18 +105,60 @@ bullet: {
       rotWithParent: true
       followParent: true
         }
-    fragBullets: 8
+    fragBullets: 1
     fragBullet: {
-        type: ShrapnelBulletType
-        toColor: f59331aa
-        fromColor: ffffff
-        createChance: 0.5
-        length: 40
-        width: 6
-        serrations: 0
+        type: EmptyBulletType
+        sprite: none
+        width: 0
+        height: 0
+        lifetime: 400
         despawnSound: shotgun
         hitLarge: true
-        damage: 25
+        damage: 0
+        collides: false
+        speed: 0
+        intervalBullets: 1
+        bulletInterval: 0.40
+        trailColor: f59331
+        trailEffect: {
+          type: ParticleEffect
+          particles: 2
+          sizeFrom: 22.5
+          sizeTo: 0
+          interp: pow5Out
+          sizeInterp: pow5In
+          colorFrom: ffffff
+          colorTo: f5933166
+          lightColor: f59331
+          length: 350
+          lifetime: 115
+            }
+        trailInterval: 0.25
+        intervalBullet: {
+            type: BasicBulletType
+            speed: 4
+            damage: 5
+            sprite: shell
+            knockback: 2
+            lifetime: 60
+            height: 20
+            width: 15
+            splashDamageRadius: 50
+            scaledSplashDamage: true
+            splashDamage: 10
+            backColor: f59331
+            hitColor: f59331
+            trailColor: f59331
+            frontColor: ffffff
+            hitSound: titanExplosion
+            status: blasted
+            trailLength: 30
+            trailWidth: 1.75
+            trailSinScl: 2.5
+            trailSinMag: 0.5
+            trailEffect: none
+            despawnShake: 7
+            }
           }
     trailInterp: slope
     shrinkX: 0.2
