@@ -207,6 +207,8 @@ weapons: [
       }
   bullet: {
     type: BasicBulletType
+    pierce: true
+    pierceBuilding: true
     damage: 2.4
     splashDamage: 1.2
     splashDamageRadius: 0.5
