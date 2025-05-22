@@ -127,7 +127,6 @@ bullet: {
     trailWidth: 3.35
     trailSinScl: 2.5
     trailSinMag: 0.5
-    trailEffect: none
     despawnShake: 7
     shootEffect: {
       type: WrapEffect
