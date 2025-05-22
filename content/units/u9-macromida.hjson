@@ -32,6 +32,7 @@ weapons: [
   shoot: {
     firstShotDelay: 240
     }
+  autoTarget: true
   shootStatus: {
     hidden: true
     name: gehfhfjhjh
@@ -200,6 +201,7 @@ weapons: [
   shootSound: shootSnap
   y: -8
   x: 8
+  autoTarget: true
   xRand: 6
   shoot: {
     shots: 4
