@@ -61,6 +61,7 @@ weapons: [
           strokeTo: 0.5
           lifetime: 15
           colorTo: f59331
+          sizeTo: 24
         }
         ]
       } 
