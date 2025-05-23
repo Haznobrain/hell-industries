@@ -177,6 +177,7 @@ ammoTypes: {
     height: 12
     width: 10
     trailWidth: 2.5
+    trailChance: 0.09
     trailEffect:  {
       type: WrapEffect
       effect: shootSmokeSquareBig
