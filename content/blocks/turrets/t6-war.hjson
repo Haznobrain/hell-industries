@@ -51,6 +51,9 @@ ammoTypes: {
     damage: 45
     speed: 5
     lifetime: 32
+    hitColor: a2564955
+    hitSound: dullExplosion
+    hitSoundVolume: 0.1
     hitEffect:{
       type: MultiEffect
       effects: [hitBulletColor, massiveExplosion, hitSquaresColor, shootSmokeSquareBig]
