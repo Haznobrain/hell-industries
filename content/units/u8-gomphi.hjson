@@ -38,7 +38,13 @@ weapons: [
       splashDamageRadius: 24
       hitEffect:{
         type: MultiEffect
-        effects: [massiveExplosion, sparkExplosion,
+        effects: [massiveExplosion, 
+          {
+          effect: sparkExplosion
+          type: WrapEffect
+          color: f59331
+          rotation: 24
+          }
         {
           type: ParticleEffect
           particles: 1
