@@ -71,6 +71,7 @@ bullet: {
     color: ff9c5a
     rotation: 24
     effect: dynamicSpikes
+}
   hitEffect: {
     type: ExplosionEffect
     smokes: 12
