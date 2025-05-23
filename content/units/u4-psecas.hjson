@@ -50,7 +50,6 @@ bullet: {
     despawnHit: true
     fragBullets: 3
     fragSpread: 30
-    fragAngle: -30
     fragRandomSpread: 0
     lifetime: 0
     speed: 0
