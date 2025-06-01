@@ -53,7 +53,11 @@ weapons: [
       rotWithParent: true
       lifetime: 40
         }
-      hitEffect: sparkExplosion
+      hitEffect: {
+        effect:sparkExplosion
+        rotation: 6
+        color: f9d2c0
+        }
       homingPower: 0.03
       damage: 6
       homingDelay: 30
